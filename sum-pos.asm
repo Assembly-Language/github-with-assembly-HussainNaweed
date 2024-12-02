@@ -13,7 +13,7 @@ main proc
 mov eax,0
 mov esi,offset myArray
 mov ecx,lengthof myArray
-
+;label
 positiveNumbers:
 mov ax,word ptr[esi]
 test ax,8000h                      ; Checking if the number is negative
