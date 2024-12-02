@@ -9,7 +9,7 @@ sum dword 0
 count dword 0
 
 .code
-main proc
+main proc             ;sum
 
 mov eax,0
 mov esi,offset myArray
