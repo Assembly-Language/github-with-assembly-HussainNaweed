@@ -7,7 +7,7 @@ myArray word  0,1,2,3,4,5,6,7,8,9
 msgSum byte "Sum of Odd values:",0
 msgCount byte "Total Odd Numbers:",0
 sum dword 0
-count dword 0
+count dword 0     ;count
 
 .code
 main proc
